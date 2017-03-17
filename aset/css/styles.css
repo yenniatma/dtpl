@@ -22,3 +22,53 @@ color: black;
 color: rgba(23, 20, 173, 1);
 
 }
+
+.container-fluid > .sidebar {
+    position: relative;
+    top: 0;
+    left:auto;
+    width: 220px; 
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float:right;
+}
+
+.container-fluid > .content {
+    margin: 0 240px; 
+}
+
+.gambar{
+	border: 2px solid black;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+table.tabel{
+	border-style: none;
+}
+
+div.kotak {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  height: 70px;
+  width: 70px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.kotak p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+p.tengah{
+	vertical-align: middle;
+}
